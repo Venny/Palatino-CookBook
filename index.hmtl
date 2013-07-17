@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>
+        CookBook
+    </title>
+  <link type="text/css" rel="stylesheet" href="styles/main.css?v=1"  />
+    <!--[if IE ]>
+		<style type="text/css">
+			.right-side-nav {
+				bottom:105px;
+			}
+		</style>
+	<![endif]-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="scripts/main.js"></script>
+</head>
+<body>
+    							<!--HeadeR-->
+	<header>
+		<nav>
+			<ul id="main-nav">
+				<li>
+					<a href="#">Home</a>
+				</li>
+			 	<li>
+					<a href="#">About</a>
+				</li>
+			</ul>
+			<h1><img src="pictures/logo.png" alt="Palatino CookBook" width="250"></h1>
+		</nav>
+	</header>
+							<!--HeadeR enD-->
+							<!--SectioN-->							
+	<section>
+		<div class="clear-div-1"></div>
+		<nav>
+		    <ul>
+                <li>
+			    	<a href="#" id="add-btn">Add a recipe</a>
+		    	</li>
+			    <li>
+				    <a href="#" id="ingredients-btn">Available ingredients</a>
+			    </li>
+		    </ul>
+		    <div>
+		        <a href="#" class="info-btn"></a>
+			    <div class="info-pop-up">
+		    	    <div>
+			    	    Made by Veneta Dimitrova.
+			        </div>
+			    </div>
+		    </div>
+		</nav>
+		<div class="clear-div-2"></div>
+		<section id="content-wrapper">
+            <div id="welcome-content">
+                Wellcome! 
+            </div>
+            <div id="add-recipes-form">
+                <form>
+                    <label for="recipe-name">Name of your recipe:* </label>
+                    <input type="text" id="recipe-name" autofocus="autofocus" /> <br/>
+                    <label for="ingerdient-1">Ingredient:* </label>
+                    <input type="text" id="ingerdient-1"/> <br/>
+                    <label for="ingerdient-2">Ingredient:* </label>
+                    <input type="text" id="ingerdient-2"/> <br/>
+                    <label for="ingerdient-3">Ingredient:* </label>
+                    <input type="text" id="ingerdient-3"/> <br/>
+                    <button id="add-ingr-btn">Add an ingredient</button>
+                    <button id="dellete-row">Dellete rows</button>
+                    <br />
+                    <button id="add-recipe-btn">Save the recipe</button>
+                </form>
+            </div>
+            <div id="avail-ingredients">
+                <form>
+                    <label for="ingredient-input">Available ingredient: </label>
+                    <input type="text" id="ingredient-input" autofocus="autofocus" />
+                    <button id="ingredient-btn">Add</button>
+                </form>
+           </div>
+           <div id="message-div"></div>
+            <div id="recipes-message"></div>
+		   <div class="clear-div-3"></div>
+		</section>
+    </section>
+                                <!--Section enD-->
+
+    							<!--FooteR-->
+	<footer>
+		<ul>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Blog</a></li>
+			<li><a href="#">Jobs</a></li>
+			<li><a href="#">Press</a></li>
+			<li><a href="#">Support</a></li>
+			<li><a href="#">Terms</a></li>
+			<li><a href="#">Privacy</a></li>
+			<li><a href="#">Developers</a></li>
+			<li><a href="#">Apps</a></li>
+			<li><a href="#">Tour</a></li>
+		</ul>
+		<div>Handmade using ecologically sustainable code</div>
+	</footer>
+							    <!--Footer enD-->
+</body>
+</html>
